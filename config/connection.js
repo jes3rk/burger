@@ -1,12 +1,12 @@
 var mysql = require("mysql");
 
-// mysql://b0e64bf740933a:76818c4b@us-cdbr-iron-east-05.cleardb.net/heroku_bfcd5d8ae4c847d?reconnect=true
+// mysql://bd7d8555359b0e:ac3b0076@us-cdbr-iron-east-05.cleardb.net/heroku_6b14f48df00b280?reconnect=true
 
 var connection = mysql.createConnection({
   host: "us-cdbr-iron-east-05.cleardb.net",
-  user: "b0e64bf740933a",
-  password: "76818c4b",
-  database: "heroku_bfcd5d8ae4c847d"
+  user: "bd7d8555359b0e",
+  password: "ac3b0076",
+  database: "eroku_6b14f48df00b280"
 });
 
 connection.connect(function(err) {
